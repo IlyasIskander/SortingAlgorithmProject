@@ -162,8 +162,8 @@ void printList(vector<int> list) {
 
 int main() {
 
-  const int listSize = 10000;
-  const int rep = 30;
+  const int listSize = 50000;
+  const int rep = 1;
   
   for (int i = 0; i < rep; i += 1) {
     cout << "TRIAL " << i+1 << endl << endl << endl;
